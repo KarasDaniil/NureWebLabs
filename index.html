@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1_v1_karas</title>
+</head>
+<body>
+    <h1>
+        Лабораторна робота №1, Карась Д.В., КІУКІ-19-8 <br/>
+        Варіант №4.
+    </h1>
+
+    <section>
+        <h2>Завдання №1 - Оформлений текст.</h2>
+        <p>
+            Загальна кількість перестановок з <em>n</em>
+            <br>елементів дорівнює <b>добутку всіх 
+            <br>цілих чисел</b> від <em>1</em> до <em>n</em>: 
+            <br>P<sub>n</sub> = 1•2•3•...•(n-2)•(n-1)•n.
+        </p>
+    </section>
+
+    <section>
+        <h2>Завдання №2 - Список.</h2>
+        <h3>Список дисциплін 3-го курсу:</h3>
+        <dl>
+          <dt>Математичний аналіз</dt>
+          <dd>Основні поняття теорії множин, функції та границі. Похідні та їх застосування.</dd>
+          <dt>Програмування на мові Java</dt>
+          <dd>Основні концепції об'єктно-орієнтованого програмування. Синтаксис мови Java та робота зі змінними, методами та класами.</dd>
+          <dt>Бази даних</dt>
+          <dd>Реляційні бази даних. Мова SQL та її застосування для роботи з даними. Нормалізація баз даних.</dd>
+          <dt>Теорія алгоритмів</dt>
+          <dd>Аналіз та опис алгоритмів. Складність алгоритмів та її оцінювання. Застосування алгоритмів у практичних завданнях.</dd>
+        </dl>
+    </section>
+
+    <section>
+        <h2>Завдання №3 - Таблиця.</h2>
+        <table border="1" cellpadding="5">
+            <caption>Уривок періодичної таблиці хімічних елементів</caption>
+            <tr>
+              <th></th>
+              <th>1</th>
+              <th>2</th>
+              <th>3</th>
+              <th>4</th>
+              <th>5</th>
+            </tr>
+            <tr>
+              <th>1</th>
+              <td>H<br>1.01</td>
+              <td colspan="4"></td>
+            </tr>
+            <tr>
+              <th>2</th>
+              <td>Li<br>6.94</td>
+              <td>Be<br>9.01</td>
+              <td colspan="3"></td>
+            </tr>
+            <tr>
+              <th>3</th>
+              <td>Na<br>22.99</td>
+              <td>Mg<br>24.31</td>
+              <td colspan="3"></td>
+            </tr>
+            <tr>
+              <th>4</th>
+              <td>K<br>39.10</td>
+              <td>Ca<br>40.08</td>
+              <td>Sc<br>44.96</td>
+              <td>Ti<br>47.87</td>
+              <td>V<br>50.94</td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td>Rb<br>85.47</td>
+                <td>Sr<br>87.62</td>
+                <td>Y<br>88.91</td>
+                <td>Zr<br>91.22</td>
+                <td>Nb<br>92.91</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Завдання №4 - Форма с керуючими елементами.</h2>
+        <h3>Введіть інформацію про комплектуючі ПК</h3>
+        <form>
+          <label for="name">Назва комплектуючої:</label>
+          <input type="text" id="name" name="name"><br>
+    
+          <label for="type">Тип комплектуючої:</label>
+          <select id="type" name="type">
+            <option value="processor">Процесор</option>
+            <option value="motherboard">Материнська плата</option>
+            <option value="memory">Пам'ять</option>
+            <option value="storage">Накопичувач</option>
+            <option value="graphics-card">Відеокарта</option>
+          </select><br>
+    
+          <label for="price">Ціна комплектуючої:</label>
+          <input type="number" id="price" name="price"><br>
+    
+          <label for="description">Опис комплектуючої:</label><br>
+          <textarea id="description" name="description" rows="5" cols="40"></textarea><br>
+    
+          <input type="submit" value="Відправити">
+          <input type="reset" value="Очистити">
+        </form>
+    </section>
+      
+    <section>
+        <h2>Завдання №5 - Посилання на зображення.</h2>
+        <h3>Наводьте курсор на різні частини картинки для відкриття різних посилань</h3>
+        <img src="https://dl.nure.ua/pluginfile.php/1/core_admin/logo/0x200/1679167317/LogoDE_new.png" alt="Карта кампусу" usemap="#map">
+        <map name="map">
+          <area shape="rect" coords="0,0,200,300" href="https://nure.ua">
+          <area shape="rect" coords="200,0,400,300" href="https://cist.nure.ua/ias/app/tt/f?p=778:201:2905994143982769:::201:P201_FIRST_DATE,P201_LAST_DATE,P201_GROUP,P201_POTOK:01.02.2023,30.06.2023,7706433,0:">
+          <area shape="rect" coords="400,0,600,300" href="https://ad.nure.ua">
+        </map>
+    </section>
+</body>
+</html>
